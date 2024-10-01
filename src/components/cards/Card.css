@@ -1,0 +1,115 @@
+.cards-main-container{
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-title{
+  margin-bottom: 50px;
+}
+.card-title h1{
+  color:#31546D;
+  font-family: Google Sans;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.drop-menu{
+  display: flex;
+  position: relative;
+  left: -400px;
+  top: 30px;
+  gap: 30px;
+}
+.drop-menu-1, .drop-menu-2{
+  display: flex;
+  gap: 10px;
+}
+.h3-style{
+  color: #6FB4FF;
+  font-family: google Sans;
+}
+.drop-menu-1 h3, .drop-menu-2 h3{
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-row-container-1, .card-row-container-2{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card-1, .card-2 {
+  width: 270px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card-1:hover, .card-2:hover{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+}
+.card-1 img, .card-2 img{
+  height: 200px;
+  width: 200px;
+}
+.card-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.card-info h1{
+  font-size: 15px;
+}
+.card-info h2{
+  color: #6FB4FF;
+}
+.card-1-btn-1{
+  width: 180px;
+  height: 56px;
+  border-radius: 18px;
+  border: 2px solid #6FB4FF;
+  color: #6FB4FF;
+  background-color: white;
+}
+.card-1-btn-1:hover{
+  background-color: #75CCEB;
+  color: white;
+}
+.card-1-btn{
+  width: 180px;
+  height: 56px;
+  border-radius: 18px;
+  opacity: 0px;
+  border: none;
+  background: linear-gradient(90deg, #75CCEB 0%, #6FB4FF 100%);
+  color: white;
+}
+
+/* Card - 2 */
+.card-row-container-2 {
+  margin-top: 45px;
+}
+.card-bottom-btn{
+  position: relative;
+  top: 100px;
+  border: 2px solid #6FB4FF;
+  border-radius: 12px;
+}
+.card-bottom-btn h1{
+  font-family: Google Sans;
+  font-size: 22px;
+  padding: 8px;
+  color: #6FB4FF;
+}

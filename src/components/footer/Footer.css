@@ -1,0 +1,124 @@
+.footer-main-container{
+  height: 740px;
+  opacity: 0px;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.flex-container{
+  display: flex;
+}
+.footer-content{
+  width: 542px;
+  height: 444px;
+  opacity: 0px;
+  position: relative;
+  top: -20px;
+  left: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+}
+.footer-content h2{
+  color: black;
+  font-family: Google Sans;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 65px;
+  text-align: right;
+}
+.footer-content h1{
+  font-family: Google Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: right;
+  color: #31546D;
+}
+.footer-content h2{
+  color: red;
+  font-size: 35px;
+}
+.footer-content h3{
+  color: rgb(33, 26, 124);
+  text-align: right;
+}
+span{
+  color: #6FB4FF;
+  font-size: 20px;
+  text-decoration: line-through;
+  position: relative;
+  left: -100px;
+  font-family: google Sans;
+}
+.footer-content p{
+  font-family: Google Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  color: #31546D;
+}
+.footer-content button{
+  width: 150px;
+  height: 56px;
+  border-radius: 18px;
+  position: relative;
+  left: 350px;
+  border: none;
+  background: linear-gradient(90deg, #75CCEB 0%, #6FB4FF 100%);
+  color: white;
+}
+
+.circle-main-container{
+  position: relative;
+  left: 200px;
+  height: 500px;
+  width: 580px;
+  border-radius: 12px;
+  z-index: 1;
+}
+.circle-container{
+  background-color: white;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  left: 90px;
+  top: 48px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.circle-container img{
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  left: 70px;
+  top: 80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.outer-circle{
+  height: 560px;
+  width: 560px;
+  position: relative;
+  top: -200px;
+  left: 10px;
+  background: transparent;
+  opacity: 20%;
+  background: #79a7ec;
+  clip-path: circle(50% at 50% 1%);
+  }
+  .wave-2{
+    position: relative;
+    top: -280px;
+  }
+  .footer-banner{
+    width: 100%;
+    height: 269px;
+    background: #0A294DCC;
+    margin-top: 0;
+    height: 235px;
+  }
